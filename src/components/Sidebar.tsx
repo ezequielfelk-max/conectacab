@@ -4,7 +4,6 @@ import {
   Cpu,
   Radio,
   GripVertical,
-  Sparkles,
   Plus,
   Minus,
   X,
@@ -564,7 +563,6 @@ export const Sidebar: React.FC = () => {
                   ? 'Parâmetros do Cabo Selecionado'
                   : 'Bitola / Cor do Cabo Ativo'}
               </h2>
-              <Sparkles className="w-3.5 h-3.5 text-amber-400" />
             </div>
             <p className="text-[11px] text-slate-400 mb-3">
               {editingEdge ? (
