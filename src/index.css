@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media print {
+  aside,
+  .react-flow__controls,
+  .react-flow__edgelabel-renderer,
+  .react-flow__attribution,
+  .print-hide {
+    display: none !important;
+  }
+
+  body,
+  .react-flow {
+    background: #ffffff !important;
+  }
+}
